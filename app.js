@@ -1,10 +1,10 @@
 import 'dotenv/config'
 
 // import { configDotenv } from "dotenv";
-import facebook from "./downloaders/facebook.js";
-import instagram from "./downloaders/instagram.js";
-import twitter from "./downloaders/twitter.js";
-import youtube from "./downloaders/youtube.js";
+import facebook from "./lib/facebook.js";
+import instagram from "./lib/instagram.js";
+import twitter from "./lib/twitter.js";
+import youtube from "./lib/youtube.js";
 
 const s = { twitter,instagram,youtube,facebook }
 export default s;
